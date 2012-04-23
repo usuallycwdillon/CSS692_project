@@ -1,3 +1,11 @@
+#
+# Status: 22 April 22:52. I switched from network to igraph as it seems to behave
+# much more nicely with memory and computation resources. Network is just plain 
+# slow. The repository graph works, with edge attributes for watching, owning, 
+# and contributing. May need to start over by adding vertex attributes from the
+# beginning as I cannot seem to be able to add them using the V(g)$name attribute.
+# 
+
 ################################################################################
 #
 # Purpose of this R source file is to maintain a record version of the steps 
